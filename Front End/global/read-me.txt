@@ -1,0 +1,12 @@
+----------------------------------------
+Tekvation Global Assets
+ as of 10/5/2014
+----------------------------------------
+
+This folder can be used on all servers.
+
+This folder should not contain things that could not be copied directly to any servers
+"Global" folder. 
+
+All scripts that have version associated with them should be named with version as the others are.
+

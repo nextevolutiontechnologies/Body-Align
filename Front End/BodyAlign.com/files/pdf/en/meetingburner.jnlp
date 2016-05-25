@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="utf-8"?><jnlp
+  spec="1.0+" version="2.7.2"
+  codebase="http://www.meetingburner.com/jnlp" >
+  <information>
+    <title>MeetingBurner</title>
+    <vendor>MeetingBurner</vendor>
+    <homepage href="docs/help.html"/>
+    <description>MeetingBurner sharing application.</description>
+    <description kind="short">Sharing Application</description>
+<icon href="mbnice.png" width="64" height="64"/>
+<offline-allowed/>
+  </information>
+  <security>
+      <all-permissions/>
+  </security>
+<update check="always" policy="always" />
+  <resources>
+    <j2se version="1.6+"  initial-heap-size="64m" max-heap-size="448m" href="http://java.sun.com/products/autodl/j2se" java-vm-args="-Djava.net.preferIPv4Stack=true" />
+<jar href="http://www.meetingburner.com/jnlp/networxonline-desktop-publisher-0.5.99-win.jar"/>
+<jar href="http://www.meetingburner.com/jnlp/bridj-0.7-120316.jar"/>
+    <jar href="http://www.meetingburner.com/jnlp/networxonline-na-0.6.2.jar"/>
+    <jar href="http://www.meetingburner.com/jnlp/juv-rtmp-client-1.9.3.jar"/>
+
+    
+  </resources>
+  <application-desc main-class="com.networxonline.dp.AppDesktopPublisherBridJ">
+    
+    <argument>-view.control.title</argument>
+    <argument>MeetingBurner</argument>
+
+<argument>-url.stream</argument>
+
+<argument>rtmpe://westcoast.meetingburner.com:443/live/BDJUBVTA_681439/4702172876499927410</argument>
+
+<argument>-view.control.showPreview</argument>
+<argument>yes</argument>
+
+
+<argument>-video.pauseIfWindowInactive</argument>
+<argument>no</argument>
+
+<argument>-video.codec</argument>
+<argument>svc</argument>
+
+<argument>-view.control.showMinimizeWhenSharing</argument>
+<argument>no</argument>
+
+<argument>-view.control.minimizeWhenSharing</argument>
+<argument>no</argument>
+
+<argument>-connection.maxUploadBandwidth</argument>
+<argument>850000</argument>
+
+<argument>-connection.useSystemProxy</argument>
+<argument>no</argument>
+
+<argument>-connection.reconnectionTimeout</argument>
+<argument>6000</argument>
+
+<argument>-video.frameRate</argument>
+<argument>5</argument>
+
+<argument>-callback.heartbeat</argument>
+<argument>no_check</argument>
+
+<argument>-video.keyFramePeriod</argument>
+<argument>-1</argument>
+
+<argument>-video.inactiveTopmostWindowColor</argument>
+<argument>#b6b6b6</argument>
+
+
+<argument>-connection.adjustMaxUploadBandwidth</argument>
+<argument>no</argument>
+
+<argument>-connection.parameter</argument>
+<argument>4702172876499927410</argument>
+
+<argument>-mouse.frameRate</argument>
+<argument>20</argument>
+
+<argument>-svc2.maxFrameSize</argument>
+<argument>120000</argument>
+
+<argument>-svc2.blockSize</argument> <argument>64x64</argument>
+<argument>-svc2.deflaterLevel</argument> <argument>4</argument>
+<argument>-svc2.quality</argument> <argument>3</argument>
+
+<argument>-method.requestVideoKeyFrame</argument> <argument>sendmethekey</argument>
+<argument>-method.stopPublishing</argument> <argument>stopit</argument>
+<argument>-method.startPublishing</argument> <argument>startit</argument>
+
+  </application-desc>
+</jnlp>

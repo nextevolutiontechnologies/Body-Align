@@ -1,0 +1,44 @@
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2016-03-24 02:54:18
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2016-03-24 02:54:18 208.118.246.234 GET / - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - 302 0 0 343
+2016-03-24 02:54:18 208.118.246.234 GET /home/ - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - 200 0 64 156
+2016-03-24 02:54:18 208.118.246.234 GET / - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - 302 0 0 156
+2016-03-24 02:54:18 208.118.246.234 GET /files/css/flexslider.css - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 301 0 0 93
+2016-03-24 02:54:18 208.118.246.234 GET /files/img/active.jpg - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 78
+2016-03-24 02:54:18 208.118.246.234 GET /files/css/flexslider.css/ - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 404 0 2 78
+2016-03-24 02:54:18 208.118.246.234 GET /home/ - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - 200 0 0 374
+2016-03-24 02:54:18 208.118.246.234 GET /files/img/refresh.jpg - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 296
+2016-03-24 02:54:18 208.118.246.234 GET /files/img/revitalize.jpg - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 296
+2016-03-24 02:54:18 208.118.246.234 GET /files/img/relax.jpg - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 281
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2016-03-24 16:11:23
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2016-03-24 16:11:23 208.118.246.234 GET / - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - 302 0 0 312
+2016-03-24 16:11:23 208.118.246.234 GET /files/css/flexslider.css - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 301 0 0 93
+2016-03-24 16:11:23 208.118.246.234 GET /files/img/active.jpg - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 282
+2016-03-24 16:11:23 208.118.246.234 GET /files/img/revitalize.jpg - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 298
+2016-03-24 16:11:23 208.118.246.234 GET /files/img/relax.jpg - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 298
+2016-03-24 16:11:23 208.118.246.234 GET /files/img/refresh.jpg - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 329
+2016-03-24 16:11:23 208.118.246.234 GET /files/css/flexslider.css/ - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 404 0 2 282
+2016-03-24 16:11:23 208.118.246.234 GET /home/ - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - 200 0 0 626
+2016-03-24 16:12:02 208.118.246.234 GET /home/products/!active/ - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 200 0 0 437
+2016-03-24 16:12:02 208.118.246.234 GET /favicon.ico - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/products/!active/ 301 0 0 93
+2016-03-24 16:12:12 208.118.246.234 GET /favicon.ico/ - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/products/!active/ 200 0 0 10547
+2016-03-24 16:13:50 208.118.246.234 GET /favicon.ico - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - 301 0 0 101
+2016-03-24 16:14:01 208.118.246.234 GET /favicon.ico/ - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - 200 0 0 10297
+#Software: Microsoft Internet Information Services 8.5
+#Version: 1.0
+#Date: 2016-03-24 21:09:36
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2016-03-24 21:09:36 208.118.246.234 GET / - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - 302 0 0 328
+2016-03-24 21:09:36 208.118.246.234 GET /files/css/flexslider.css - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 301 0 0 93
+2016-03-24 21:09:36 208.118.246.234 GET /css/custom.css - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 93
+2016-03-24 21:09:36 208.118.246.234 GET /home/ - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 - 200 0 0 421
+2016-03-24 21:09:36 208.118.246.234 GET /files/img/active.jpg - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 299
+2016-03-24 21:09:36 208.118.246.234 GET /files/img/revitalize.jpg - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 299
+2016-03-24 21:09:36 208.118.246.234 GET /files/img/refresh.jpg - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 299
+2016-03-24 21:09:36 208.118.246.234 GET /files/img/relax.jpg - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 304 0 0 293
+2016-03-24 21:09:36 208.118.246.234 GET /files/css/flexslider.css/ - 80 - 98.171.185.116 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/49.0.2623.87+Safari/537.36 http://new.bodyalign.com/home/ 404 0 2 293

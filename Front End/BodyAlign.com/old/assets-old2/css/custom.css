@@ -1,0 +1,128 @@
+.list-box
+{
+	width:100%;
+	background:#ddd;
+	height:200px;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    color: #000 !important;
+    border-bottom: 2px solid #000;
+    background-color: transparent !important;
+}
+
+.navbar-nav > li > a:hover {
+    
+    border-bottom: 2px solid #000;
+}
+
+
+.navbar-toggle {
+    background-color: #000; }
+    
+   
+.navbar-nav > li > a {
+    padding-bottom: 0px !important;
+    padding-top: 15px;
+}
+
+.cpadding {
+   padding: 7px 7px 0px 7px !important;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.margin-bottom
+{
+	margin-bottom:7px !important;
+}
+.navbar-inverse
+{
+	background-color:#fff;
+	border-bottom:1px solid #ddd;
+}
+footer
+{
+	width:100%;
+	margin:0px;
+	padding-bottom:5px;
+	border-bottom:1px solid #777;
+}
+footer p
+{
+	margin:0px;
+}
+footer ul
+{
+	margin:0px 10px 0px 10px; 
+	padding:0px;
+	font-size:11px;
+}
+footer ul li
+{
+	display:inline-block;
+	vertical-align:middle;
+	color:#aaa;
+	margin:0px 2px 0px 2px;
+}
+footer ul li a
+{
+	color:#aaa;
+}
+#myCarousel
+{
+	padding:0px;
+}
+.copyright
+{
+	background:#888;
+	color:#fff;
+	margin-bottom:0px;
+}
+.copyright p
+{
+	margin-bottom:0px;
+	font-size:10px;
+	padding:0px 10px;
+}
+.carousel, .item, .active
+{
+	height:828px;
+}
+.cpull-right
+{
+	float:right;
+}
+.nav
+{
+	font-size:12px;
+
+}
+.nav a
+{
+	color:#000 !important;
+}
+.fa-sort-desc
+{
+	vertical-align:baseline;
+}
+.ccont
+{
+	width:auto !important;
+}
+.navbar-brand 
+{
+	padding:0px;
+}
+.navbar-brand img
+{
+	padding:0px;
+    height: 50px;
+    margin-left: 60px;	
+}
+@media (max-width: 767px) {
+  .cpull-right
+   {
+	float:none;
+  }
+}

@@ -1,0 +1,103 @@
+/*------------------------------------------------------------------
+Project:	Mosaic
+Version:	1.2
+Created: 		20/01/2014
+Last change:	27/02/2014
+-------------------------------------------------------------------*/
+
+/* ===== Body Style Toggle ===== */
+
+.style-toggle-body .colors {
+	margin: 0;
+}
+.style-toggle-body .colors > li {
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+}
+.style-toggle-body .colors > .green {
+	background-color: #94BA65;
+}
+.style-toggle-body .colors > .blue {
+	background-color: #2790B0;
+}
+.style-toggle-body .colors > .orange {
+	background-color: #D26C22;
+}
+.style-toggle-body .colors > .red {
+	background-color: #E35E54;
+}
+
+/* ===== Link and Font Colors ===== */
+
+.body-green a,
+.body-green .text-color {
+	color: #94c1b2;
+}
+
+/* ===== Border Colors ===== */
+
+.body-green .border-color {
+	border-color: #94c1b2;
+}
+
+.body-green .pricing-p .border-color {
+	border-color: #DF310C;
+}
+
+/* ===== Background Colors ===== */
+
+.body-green .bg-color {
+	background-color: #DF310C;
+}
+
+.body-green .pricing-p .bg-color {
+	background-color: #DF310C;	
+}
+
+.body-green .bg-hover-color:hover,
+.body-green .open > .bg-hover-color {
+	background-color: #94c1b2 !important;
+}
+.body-green .dropdown-menu > .active > a,
+.body-green .dropdown-menu > .active > a:hover,
+.body-green .dropdown-menu > .active > a:focus {
+	background-color: #DF310C;
+}
+
+/* ===== Buttons Colors ===== */
+
+.btn-color,
+.btn-color:hover,
+.btn-green,
+.btn-green:hover {
+	color: #fff !important;
+	-webkit-transition: background-color 300ms, border-color 300ms;
+			transition: background-color 300ms, border-color 300ms;
+}
+
+/* Button Green */
+
+.body-green .btn-color,
+.btn-green {
+	background-color: #DF310C;
+	border-color: #DF310C;
+}
+.body-green .btn-color:hover,
+.body-green .btn-color:focus,
+.body-green .btn-color:active,
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active{
+	background-color: #ef4723;
+	border-color: #ef4723;
+}
+
+/* ===== Page Not Found ===== */
+
+.body-green .not-found-p,
+.body-green .alt-p,
+.body-green .color-jumbotron{
+	background: #DF310C;
+	background-image: radial-gradient(#ef4723, #DF310C);
+}
