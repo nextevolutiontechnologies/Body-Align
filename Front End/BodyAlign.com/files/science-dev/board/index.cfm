@@ -4,7 +4,7 @@
 <div class=container>
 <div class=row>
 <div class="col-md-6">
-<h1 class=page-header>Our Science Board
+<h1 class=page-header>Our Advisory Board
 </h1>
 
 
@@ -15,7 +15,7 @@
 <li>
 <a href="/#url.u#/science">Science</a>
 </li>
-<li class="active">Our Science Board </li>
+<li class="active">Our Advisory Board</li>
 </ol>
 </cfoutput>
 </div>
@@ -27,7 +27,7 @@
 </div>
 <div class=col-md-8>
 <h4>Chief Medical Officer: Siva Arunasalam, M.D.</h4>
-<p align=justify>Dr. Siva Arunasalam is the director of the High Desert Heart Institute and an Attending Cardiologist. He is Board Certified in Internal Medicine, Cardiology, Interventional Cardiology and Certified by the Heart Rhythm Society for the implantation of pacemakers and ICDs. He has over 20 years of experience in Interventional Cardiology. </p>
+<p align=justify>Dr. Siva Arunasalam MD, the director of the High Desert Heart Institute (HDH) and an Attending Cardiologist. He is Board Certified in Internal Medicine, Cardiology, Interventional Cardiology and Certified by the Heart Rhythm Society for the implantation of pacemakers and ICDs. He has 20 years of experience in Angioplasty, Carotid Stenting, and Peripheral Angioplasty. Based on 5 years of research studying the role of arginine complexers in promoting vascular health at his clinic. Dr. Siva worked to make a next generation nitric oxide to best serve his patient base and people across the globe.</p>
  </div>
 </div>
 <br/>
