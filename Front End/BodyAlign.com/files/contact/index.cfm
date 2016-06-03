@@ -3,10 +3,20 @@
 <section class="content-1-5 content-block">
 <div class="container">
 	<div class="row">
-		<div class="col-lg-12">
+		<div class="col-md-6">
 		<h1 class="page-header"> Contact Us
 		</h1>
 		</div>
+		<div class="col-md-6 text-right">
+<cfoutput>
+<ol class="breadcrumb breadcrumb-2">
+<li>
+<a href="/#url.u#/">Home</a>
+</li>
+<li class="active">Contact Us </li>
+</ol>
+</cfoutput>
+</div>
 	</div>
 
 	<div class="row">
@@ -23,6 +33,9 @@
 			</div>
 			<div class="form-group">
 			<input type="text"  name="strLastName" placeholder="Your Last Name" />
+			</div>
+			<div class="form-group">
+			<input type="text"  name="strPhone" placeholder="Phone Number" />
 			</div>
 			<div class="form-group">
 			<input type="text" class="validate-required validate-email" name="strEmail" placeholder="Email Address" />

@@ -34,19 +34,19 @@
 <br />
 <p align=justify>Click on the Study links below that validate H3 Holographic Technology</p>	
 <br />
-<a class="btn2 btn-primary2" href="/files/science-dev/h3holographic/study1" title="Click Here to see Study 1">STUDY 1 </a>
+<a class="btn btn-color" href="/files/science/h3holographic/study1" title="Click Here to see Study 1">STUDY 1 </a>
 <br />
-   <a class="btn2 btn-primary2" href="/files/science-dev/h3holographic/study2" title="Click Here to see Study 2">STUDY 2</a>
+   <a class="btn btn-color" href="/files/science/h3holographic/study2" title="Click Here to see Study 2">STUDY 2</a>
 <br />
-   <a class="btn2 btn-primary2" href="/files/science-dev/h3holographic/study3" title="Click Here to see Study 3">STUDY 3</a>
+   <a class="btn btn-color" href="/files/science/h3holographic/study3" title="Click Here to see Study 3">STUDY 3</a>
 <br />
-   <a class="btn2 btn-primary2" href="/files/science-dev/h3holographic/study4" title="Click Here to see Study 4">STUDY 4</a>
+   <a class="btn btn-color" href="/files/science/h3holographic/study4" title="Click Here to see Study 4">STUDY 4</a>
 <br />
-   <a class="btn2 btn-primary2" href="/files/science-dev/h3holographic/study5" title="Click Here to see Study 5">STUDY 5</a>
+   <a class="btn btn-color" href="/files/science/h3holographic/study5" title="Click Here to see Study 5">STUDY 5</a>
 <br />
-   <a class="btn2 btn-primary2" href="/files/science-dev/h3holographic/study6" title="Click Here to see Study 6">STUDY 6</a>
+   <a class="btn btn-color" href="/files/science/h3holographic/study6" title="Click Here to see Study 6">STUDY 6</a>
 <br />
-   <a class="btn2 btn-primary2" href="/files/science-dev/h3holographic/study7" title="Click Here to see Study 7">STUDY 7</a>
+   <a class="btn btn-color" href="/files/science/h3holographic/study7" title="Click Here to see Study 7">STUDY 7</a>
 </div>
 </div>
 </section>

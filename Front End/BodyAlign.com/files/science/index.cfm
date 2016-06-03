@@ -8,102 +8,47 @@
 </h1>
 </div>
 </div>
+
 <div class=row>
-<div class=col-lg-12>
-<h3>H3 Holographic Technology Research and Studies</h3>
-<p align=justify>Body Align products are proven in research labs, in clinical use, on the playing field and by thousands of people that use them every day. Scroll down to view the latest research and studies.</p>
-</div>
-</div>
-<br/><br/>
-<div class=row>
-<div class=col-md-7>
-<img class=img-responsive src="/files/img/science/science-img1.jpg" alt="" width=536 height=230>
-</div>
 <div class=col-md-5>
-<h4>Effects of a "Holographic" disk on Delayed Onset Muscle Soreness and Performance: a Pilot Study - University of Alabama</h4>
-<p align=justify>A research study to determine if "encoded holographic data discs" at acupressure sites would alleviate the pain and discomfort commonly associated with delayed onset muscle soreness, as well as enhance weight lifting performance. </p>
-<a class="btn btn-primary" href="/files/pdf/en/bodyalign-NACSM-2011-University-of-Alabama.pdf" target="_blank" title="Click Here to View Now">View Full Article </a>
+<img class=img-responsive src="/files/img/science/advisory-board.jpg" alt="" width=536 height=420>
+</div>
+<div class=col-md-7>
+<h4>Our Advisory Board</h4>
+<p align=justify>The Advisory Board of Body Align was established for the purpose of providing advice and guidance to the staff and Board of Directors.  Advisory Board members are selected for their medical knowledge and technical expertise in the health and wellness space, as well as for their compassion and sensitivity to the needs of our Customers and their families.</p>
+<a class="btn2 btn-primary2" href="/files/science/board/"  title="Click Here to Learn More about our Science Board">Learn More </a>
 </div>
 </div>
 <br/>
 <hr>
 <br/>
 <div class=row>
-<div class=col-md-7>
-<img class=img-responsive src="/files/img/science/science-img2.jpg" alt="" width=536 height=230>
-</div>
 <div class=col-md-5>
-<h4>Testing Effects On Red Blood Cells And The Bodies Circulatory System Using 8ight Relief Holographic Discs.- HealthWalk</h4>
-<p align=justify>Comparison of before and after tests of the Relief Disc from 8ight exhibited a marked decrease in blood flow viscosity, which is consistent with improved metabolic parameters normally seen in blood with the proper Zeta potential. The blood cells reflected increased separation, spin and vibration rate within 2 minutes of applying the Relief Holographic Disc. </p>
-<a class="btn btn-primary" href="/files/pdf/en/bodyalign-HealthWalk1.pdf" target="_blank" title="Click Here to View Now">View Full Article </a>
+<img class=img-responsive src="/files/img/science/h3-holographic.jpg" alt="" width=536 height=420>
+</div>
+<div class=col-md-7>
+<h4>H3 Holographic Technology</h4>
+<p align=justify>Today, biologists and physicists are beginning to understand exactly how the DNA in cells communicates information to other cells.  A lot of the research has been done by Konstantin Meyl. It happens using very special electrical signals called longitudinal scalar waves.  This science is new, but it promises to explain many phenomena that have been very mysterious.</p>
+<p align=justify>It's pretty clear that at the cellular level communication not only happens through biochemistry, but also through some kind of electromagnetic information.</p>
+<p align=justify>Today, the principles of holography are being applied to a lot of different things.  The Body Align discs also known as Wareable Wellness Technology, uses holographic techniques to capture the information given off by the DNA of different substances. And just like light holograms, they are able to reproduce that signal when they are next to your body.  So that means you are getting the same information from a Body Align disc that you would by having some substance next to you. The precise relationship between holograms and longitudinal scalar waves is not well understood, but the technology has been demonstrated to work well.</p>
+<a class="btn2 btn-primary2" href="/files/science/h3holographic"  title="Click Here to Learn More about the Science of H3 Holographic">Learn More </a>
 </div>
 </div>
 <br/>
 <hr>
 <br/>
 <div class=row>
-<div class=col-md-7>
-<img class=img-responsive src="/files/img/science/science-img3.jpg" alt="" width=536 height=230>
-</div>
 <div class=col-md-5>
-<h4>Testing The Effects Of The 8ight Relief Holographic Disc On Pain Areas Using Thermal Imaging. - HealthWalk</h4>
-<p align=justify>Comparison of before and after tests of the Relief Disc from 8ight exhibited a cooling effect on the pain area and the cooling effect appeared to transmit to other areas of the body. This cooling effect of inflammation from athletic exercise could lead to increased muscle endurance from the reduction in inflammation and pain. </p>
-<a class="btn btn-primary" href="/files/pdf/en/bodyalign-HealthWalk2.pdf" target="_blank" title="Click Here to View Now">View Full Article </a>
+<img class=img-responsive src="https://ehonami.blob.core.windows.net/media/2014/12/cardiovascular-system-working-overtime.jpg" alt="" width=536 height=230>
 </div>
-</div>
-<br/>
-<hr>
-<br/>
-<div class=row>
 <div class=col-md-7>
-<img class=img-responsive src="/files/img/science/science-img4.jpg" alt="" width=536 height=230>
-</div>
-<div class=col-md-5>
-<h4>The Effects Of Holographic Technology On Resting Heart Rate In Division 1 Football Players - Troy University</h4>
-<p align=justify>A double-blind study using Wristbands showing the application of holographic wristbands has a significant impact on lowering resting heart rate. </p>
-<a class="btn btn-primary" href="/files/pdf/en/bodyalign-TU-study-on-HeartRate-on-holographic-bands.pdf" target="_blank" title="Click Here to View Now">View Full Article </a>
+<h4>Argi Align</h4>
+<p align=justify>Research and Science is the key to healthy products that can improve your wellness now and well into the future. With Argi Align you have an L Arginine product that is MD formulated, researched and studied to the highest standards of nutritional health science. </p>
+<p align=justify>For over two decades Dr. Siva Arunasalam MD, the Founder and Clinical Director of the High Desert Heart Institute has been practicing medicine in Southern California, USA. As an Intervention Cardiologist and Clinical Researcher his passion to save lives and help provide products that enhance the quality of life for his patients, family and friends has led him down a unique path that is truly defining functional wellness. Over ten thousand hours of research has been committed to developing the most innovative, efficient bio-available functional Nitric-Oxide formula on the market today.</p>
+<a class="btn2 btn-primary2" href="/files/science/argialign"  title="Click Here to Learn More about the Science of Argi Align">Learn More </a>
 </div>
 </div>
-<br/>
-<hr>
-<br/>
-<div class=row>
-<div class=col-md-7>
-<img class=img-responsive src="/files/img/science/science-img5.jpg" alt="" width=536 height=230>
-</div>
-<div class=col-md-5>
-<h4>Demonstrating A Significant Influence In Biofield Resonance, Bionetic Harmonics, And Bioelectrical Zeta Potential - Lee G. Wooley</h4>
-<p align=justify>This paper provides a scientific basis regarding the significant and on-going demonstrations of positive interactions with the biofield (Rubik 2002), bionetic harmonics (Woolley 1994) and bioelectrical zeta potential responses through the use of the 8ight programmed holographic discs when placed in close proximity to, or onto the skin of the human body. </p>
-<a class="btn btn-primary" href="/files/pdf/en/bodyalign-LeeWoolley1.pdf">View Full Article</a>
-</div>
-</div>
-<br/>
-<hr>
-<br/>
-<div class=row>
-<div class=col-md-7>
-<img class=img-responsive src="/files/img/science/science-img6.jpg" alt="" width=536 height=230>
-</div>
-<div class=col-md-5>
-<h4>Biocoherence - 8ight</h4>
-<p align=justify>When a Data Disc&#8482; is in the body's biofield they act to bring the body into biocoherence and balance, 100% of the time. We have conducted numerous tests to confirm this. These results are now being formulated into a detailed study
-We are authenticating and replicating, in the lab, that the feedback we are getting from the field and the lab are the same. The Lab results confirm that 100% of the time the Data Discs&#8482; are influencing the acupuncture system of the body. </p>
-<a class="btn btn-primary" href="/files/pdf/en/bodyalign-8ight1biocoherence.pdf" target="_blank" title="Click Here to View Now">View Full Article</a>
-</div>
-</div>
-<br/>
-<hr>
-<br/>
-<div class=row>
-<div class=col-md-7>
-<img class=img-responsive src="/files/img/science/science-img6.jpg" alt="" width=536 height=230>
-</div>
-<div class=col-md-5>
-<h4>Balance And Motion Testing On Wrist Bands Powered By 8ight Holographic Technology - Dr. Kendal Stewart, MD</h4>
-<p align=justify>A single-subject preliminary evaluation to test Wristband technology showing such astounding results that a full double-blind placebo study is proposed. </p>
-<a class="btn btn-primary" href="/files/pdf/en/bodyalign-8ight2Stewart.pdf" target="_blank" title="Click Here to View Now">View Full Article</a>
-</div>
-</div>
+ 
 </section>
 <br /><br /><br />
 <!--// End Content Block 1-8 -->

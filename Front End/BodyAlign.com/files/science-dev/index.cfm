@@ -11,7 +11,7 @@
 
 <div class=row>
 <div class=col-md-5>
-<img class=img-responsive src="http://i.istockimg.com/image-zoom/77937909/3/380/253/stock-photo-77937909-team-of-happy-scientists-with-crossed-arms-in-a-laboratory-.jpg" alt="" width=536 height=230>
+<img class=img-responsive src="/files/img/science/advisory-board.jpg" alt="" width=536 height=420>
 </div>
 <div class=col-md-7>
 <h4>Our Advisory Board</h4>
@@ -24,7 +24,7 @@
 <br/>
 <div class=row>
 <div class=col-md-5>
-<img class=img-responsive src="http://i.istockimg.com/image-zoom/88147625/3/380/254/stock-photo-88147625-cd-dvd-macro.jpg" alt="" width=536 height=230>
+<img class=img-responsive src="/files/img/science/h3-holographic.jpg" alt="" width=536 height=420>
 </div>
 <div class=col-md-7>
 <h4>H3 Holographic Technology</h4>
@@ -45,7 +45,7 @@
 <h4>Argi Align</h4>
 <p align=justify>Research and Science is the key to healthy products that can improve your wellness now and well into the future. With Argi Align you have an L Arginine product that is MD formulated, researched and studied to the highest standards of nutritional health science. </p>
 <p align=justify>For over two decades Dr. Siva Arunasalam MD, the Founder and Clinical Director of the High Desert Heart Institute has been practicing medicine in Southern California, USA. As an Intervention Cardiologist and Clinical Researcher his passion to save lives and help provide products that enhance the quality of life for his patients, family and friends has led him down a unique path that is truly defining functional wellness. Over ten thousand hours of research has been committed to developing the most innovative, efficient bio-available functional Nitric-Oxide formula on the market today.</p>
-<a class="btn2 btn-primary2" href="/files/science-dev/argialign" title="Click Here to Learn More about the Science of Argi Align">Learn More </a>
+<a class="btn2 btn-primary2" href="/files/science-dev/argialign"  title="Click Here to Learn More about the Science of Argi Align">Learn More </a>
 </div>
 </div>
  

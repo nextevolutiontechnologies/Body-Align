@@ -26,15 +26,15 @@
 <img class=img-responsive src="https://ehonami.blob.core.windows.net/media/2014/12/cardiovascular-system-working-overtime.jpg" alt="" width=536 height=230>
 <br />
 <center>
-<a class="btn btn-color" href="/files/science-dev/argialign/evolution-argialign/" title="Click to read the Evolution of Argi Align" width=200>Evolution of Argi Align</a>
+<a class="btn btn-color" href="/files/science/argialign/evolution-argialign/" title="Click to read the Evolution of Argi Align" width=200>Evolution of Argi Align</a>
 <br />
-<a class="btn btn-color" href="/files/science-dev/argialign/argialign-formula/" title="Click to read Argi Align Formula" width=200>Argi Align Formula</a>
+<a class="btn btn-color" href="/files/science/argialign/argialign-formula/" title="Click to read Argi Align Formula" width=200>Argi Align Formula</a>
 <br />
-<a class="btn btn-color" href="/files/science-dev/argialign/md-formulated/" title="Click to read MD Formulated" width=200>MD Formulated</a>
+<a class="btn btn-color" href="/files/science/argialign/md-formulated/" title="Click to read MD Formulated" width=200>MD Formulated</a>
 <br />
-<a class="btn btn-color" href="/files/science-dev/argialign/argialign-faqs/" title="Click to read Argi Align FAQs" width=200>Argi Align FAQs</a>
+<a class="btn btn-color" href="/files/science/argialign/argialign-faqs/" title="Click to read Argi Align FAQs" width=200>Argi Align FAQs</a>
 <br />
-<a class="btn btn-color" href="/files/science-dev/argialign/science-library/" title="Click to read Argi Align Science Library" width=200>Argi Align Science Library</a>
+<a class="btn btn-color" href="/files/science/argialign/science-library/" title="Click to read Argi Align Science Library" width=200>Argi Align Science Library</a>
 </center>
 </div>
 <div class=col-md-5>
