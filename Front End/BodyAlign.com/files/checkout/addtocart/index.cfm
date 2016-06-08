@@ -188,99 +188,18 @@
 <!--- START: Shipping Mess --->
 <!--- if zipcode exist calculate shipping charges --->
 <!--- calculate shipping for all order types except event ticket --->
-<CFIF pGetCartItems_Result.strCartZip gt '' and (pGetCartItems_Result.intCartTypeID neq 11)>
-	<!--- calculate shipping amount --->
-	<CFQUERY name="GetCartWeight" datasource="#Application.Datasource#" >
-		SELECT IsNull([dbo].[fGetTotalCartWeight] (#session.CartID#),0) as CartWeight
-	</CFQUERY>
-	<CFQUERY name="GetItemCount" datasource="#Application.Datasource#" >
-		SELECT sum(Quantity) TotalItemCount from dbo.xCart_Detail WHERE intCartID = #session.CartID#
-	</CFQUERY>
-	<CFQUERY name="GetShippingBrand" dbtype="query">
-	SELECT MIN(intBrandID) intBrandID from pGetCartItems_Result WHERE intCartID = #session.CartID#
-	</CFQUERY>
-		<cfparam name="this.ShipMethodID" default="1" >
-		<CFIF GetShippingBrand.intBrandID eq 2 or GetShippingBrand.intBrandID eq 0>
-			<CFSET this.ShipMethodID = 7 >
-		</CFIF>
-		<CFIF GetShippingBrand.intBrandID eq 1>
-			<CFSET this.ShipMethodID = 1>
-		</CFIF>
-		<CFIF GetShippingBrand.intBrandID eq 1 and  pGetCartItems_Result.intCartStateID eq 63>
-			<CFSET this.ShipMethodID = 6>
-		</CFIF>
-		<!---<CFIF GetShippingBrand.intBrandID eq 0 and  pGetCartItems_Result.intCartStateID eq 63>
-			<CFSET this.ShipMethodID = 6>
-		</CFIF>
-		<CFIF (GetShippingBrand.intBrandID eq 2 or GetShippingBrand.intBrandID eq 0) and  pGetCartItems_Result.intCartTypeID eq 3>
-			<CFSET this.ShipMethodID = 5>
-		</CFIF>--->
-
-		<cfswitch expression="#this.ShipMethodID#">
-			<!--- United Parcel Service Only --->
-			<cfcase value="1">
-				<CFTRY>
-
-				<!--- this should be in utils.. .but for now lets get it done --->
-				<CFSET application.key = '5CDCC4D0A67945F5'>
-				<CFSET application.username = 'powervida333'>
-				<CFSET application.password = 'powervida4417'>
-				<cfset st = createObject("component", "global.cfc.cfups.org.camden.ups.rateservice").init(application.key, application.username, application.password)>
-				<!--- Use this to show package types--->
-
-				<cfset packages = arrayNew(1)>
-				<cfset arrayAppend(packages, st.getPackageStruct(weight=#GetCartWeight.CartWeight#,packagetype="02", declaredvalue=0))>
-				<cfset rates = st.getRateInformation(shipperpostalcode=78734,packages=packages,shiptopostalcode=#pGetCartItems_Result.strCartZip#)>
-				<CFQUERY name="GetGround" dbtype="query" >
-				SELECT totalcharges FROM rates where servicecode = '03'
-				</cfQUERY>
-				<CFSET ShippingCharge = getGround.TotalCharges >
-				<CFCATCH>
-
-				<CFSET ShippingCharge = '9.66'>
-
-				</CFCATCH>
-				</CFTRY>
-
-			</cfcase>
-
-			<!---Will Call (Austin)--->
-			<cfcase value="2,3">
-				<CFSET ShippingCharge=0>
-			</cfcase>
-
-			<!---United States Post Office--->
-			<cfcase value="4">
-				<!--- not in user --->
-			</cfcase>
-
-			<!--- Body Align or Briarnet Custom Rates Autoship shipped via USPS--->
-			<cfcase value="5">
-				<CFSET ShippingCharge=1.50>
-			</cfcase>
-
-			<!--- Body Align or Briarnet Custom Rates shipped via USPS--->
-			<cfcase value="7">
-				<!--- nothing to set --->
-			</cfcase>
-		</cfswitch>
-
-		<cfstoredproc procedure="dbo.pUpdate_CartShipAmount" debug="yes" datasource="#application.datasource#">
-			<cfprocparam cfsqltype="CF_SQL_INTEGER" variable="intCartID" type="in" value="#session.CartID#">
-		<cfif ShippingCharge gt ''>
-			<!--- if we send something then this amount will trump ship procedure rate --->
-			<cfprocparam cfsqltype="CF_SQL_decimal" scale="2" variable="ShipRate" type="in" value="#ShippingCharge#" >
-		<cfelse>
-			<!--- if we send null then Procedure will Get Shipping Rate --->
-			<cfprocparam cfsqltype="CF_SQL_decimal" variable="ShipRate" type="in" null="true" >
-		</cfif>
-			<cfprocparam cfsqltype="CF_SQL_int" variable="intShipMethodID" type="in" value="#this.ShipMethodID#" >
-		</cfstoredproc>
-
-		<!--- Update Cart Total --->
-		<cfstoredproc procedure="dbo.pUpdate_CartTotal" debug="yes" datasource="#application.datasource#">
-			<cfprocparam cfsqltype="CF_SQL_INTEGER" variable="intCartID" type="in" value="#session.CartID#">
-		</cfstoredproc>
+<CFIF pGetCartItems_Result.strCartZip gt ''>
+	<cfparam name="this.ShipMethodID" default="7" >
+	<cfstoredproc procedure="dbo.pUpdate_CartShipAmount" debug="yes" datasource="#application.datasource#">
+		<cfprocparam cfsqltype="CF_SQL_INTEGER" variable="intCartID" type="in" value="#session.CartID#">
+		<!--- if we send null then Procedure will Get Shipping Rate --->
+		<cfprocparam cfsqltype="CF_SQL_decimal" variable="ShipRate" type="in" null="true" >
+		<cfprocparam cfsqltype="CF_SQL_int" variable="intShipMethodID" type="in" value="#this.ShipMethodID#" >
+	</cfstoredproc>
+	<!--- Update Cart Total --->
+	<cfstoredproc procedure="dbo.pUpdate_CartTotal" debug="yes" datasource="#application.datasource#">
+		<cfprocparam cfsqltype="CF_SQL_INTEGER" variable="intCartID" type="in" value="#session.CartID#">
+	</cfstoredproc>
 </CFIF>
 
 <!--- END: Shipping Mess --->

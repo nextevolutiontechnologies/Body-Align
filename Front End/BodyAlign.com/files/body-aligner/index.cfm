@@ -66,8 +66,8 @@
 <h4 class="modal-title" id="myModalLabel" style="color: #fff;">BUSINESS OVERVIEW</h4>
 </div>
 <div class="modal-body" align="center">
-<div class="video-container">
-<iframe src="http://net.evsuite.com/Qm9keS1BbGlnbi1PdmVydmlldy5tcDQ=/?mode=iframe" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>     </div>
+<div class="video-container" id="yt-player">
+<iframe src="http://net.evsuite.com/Qm9keSBBbGlnbiBPdmVydmlldy5tcDQ=/?mode=iframe" width="1300" height="740" frameborder="0" allowfullscreen></iframe>  </div>
 </div>
 </div>
 </div>

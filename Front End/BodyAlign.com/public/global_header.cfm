@@ -36,24 +36,15 @@ SELECT * FROM StateProvince WHERE strCountryCode = '#session.CountryCode#' ORDER
 <link href="/global/font-awesome-4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
 <link rel="stylesheet" type="text/css" href="/files/css/custom.css">
-<script type="text/javascript" src="/global/js/jquery.js"></script>
+
 <link rel="stylesheet" type="text/css" href="/files/css/settings.css">
 <link rel="stylesheet" type="text/css" href="/files/css/layers.css">
 <link rel="stylesheet" type="text/css" href="/files/css/navigation.css">
 <!--[if lt IE 9]> 
 <![endif]-->
-<script type="text/javascript" src="/files/js/jquery.themepunch.tools.min.js"></script>
-<script type="text/javascript" src="/files/js/jquery.themepunch.revolution.min.js"></script>
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-<script type="text/javascript" src="/files/js/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript" src="/files/js/extensions/revolution.extension.carousel.min.js"></script>
-<script type="text/javascript" src="/files/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script type="text/javascript" src="/files/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="/files/js/extensions/revolution.extension.migration.min.js"></script>
-<script type="text/javascript" src="/files/js/extensions/revolution.extension.navigation.min.js"></script>
-<script type="text/javascript" src="/files/js/extensions/revolution.extension.parallax.min.js"></script>
-<script type="text/javascript" src="/files/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="/files/js/extensions/revolution.extension.video.min.js"></script>
+<!--- Code to allow for custom stuff --->
+<cfparam name="customhead" default="" >
+<cfoutput>#customhead#</cfoutput>
 <!--Start Google Analytics-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -77,5 +68,6 @@ use_existing_jquery=false,
 f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
 </script>
 <!-- End Visual Website Optimizer Asynchronous Code -->
+
 </head>
 <body>

@@ -117,7 +117,9 @@
 </table>
 <cfif pGetCartItems_Result.strCartZip gt ""  and not isdefined("url.qu")>
 <span id="sec-total" >
-<a href="/#url.u#/checkout/payment/" class="submit-btn" >Proceed To Payment</a>
+<a href="<cfoutput>#application.protocol##HTTP_HOST#</cfoutput>/#url.u#/checkout/payment/" class="submit-btn" >Proceed To Payment</a>
+<br /><br /><a href="<cfoutput>#application.protocol##HTTP_HOST#</cfoutput>/#url.u#/products/" class="submit-btn" >Continue Shopping</a>
+
 </span>
 </cfif>
 </div>

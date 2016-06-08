@@ -14,8 +14,18 @@
 <div class="container">
 <!-- Page Heading -->
 <div class="row">
-<div class="col-lg-12">
+<div class="col-lg-6">
 <h1 class="page-header">#strProduct#</h1>
+</div>
+<div class="col-md-6 text-right">
+<cfoutput>
+<ol class="breadcrumb breadcrumb-2">
+<li>
+<a href="/#url.u#/products">Products</a>
+</li>
+<li class="active">#strProduct#</li>
+</ol>
+</cfoutput>
 </div>
 </div>
 </div><!--end container-->

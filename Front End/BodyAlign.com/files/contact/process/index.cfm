@@ -15,11 +15,19 @@
 <cfprocparam cfsqltype="CF_SQL_VARCHAR" variable="strCity" type="in" null="true" >
 <cfprocparam cfsqltype="CF_SQL_INTEGER" variable="intStateID" type="in"  null="true" >
 <cfprocparam cfsqltype="CF_SQL_VARCHAR" variable="strZipCode" type="in" null="true" >
-<cfprocparam cfsqltype="CF_SQL_VARCHAR" variable="strPhone" type="in" null="true" >
+<cfprocparam cfsqltype="CF_SQL_VARCHAR" variable="strPhone" type="in" value="#form.strPhone#">
 <cfprocparam cfsqltype="CF_SQL_VARCHAR" variable="strEmail" type="in" value="#form.strEmail#">
 <cfprocparam cfsqltype="CF_SQL_VARCHAR" variable="strContactNote" type="in" value="#form.strMessage#">
 </cfstoredproc>
-<cfcatch></cfcatch>
+
+<cfinvoke  component="global.cfc.SendEmailAPI" method="SendContactRequest" returnVariable="SendEmail_results">
+<cfinvokeargument name="intContactID" value="#pUPSERT_CONTACT_Result.INTCONTACTID#">
+</CFINVOKE>
+<cfcatch>
+	<CFLOCATION url="/#url.u#/contact/?e=-1" addtoken="no" >
+	<cfabort>
+</cfcatch>
 </cftry>
 <CFLOCATION url="/#url.u#/contact/?e=1" addtoken="no" >
+<cfabort>
 </cfif>

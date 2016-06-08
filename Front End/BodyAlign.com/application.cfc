@@ -1,6 +1,6 @@
 <cfcomponent>
 
-	<cfset this.name=ListGetAt(CGI.HTTP_HOST,2,".") & '_1'>
+	<cfset this.name=ListGetAt(CGI.HTTP_HOST,2,".") & '_2'>
 
 	<cfset this.SessionManagement = "true">
 	<cfset this.ClientManagement = "true">
@@ -33,7 +33,7 @@
 		<cfset Application.GoogleID = GetBrandInfo.strGoogleID>
 		<cfset Application.BackOfficeURL = GetBrandInfo.strBackOfficeDomain>
 		<cfif getBrandInfo.isHTTPS>
-			<cfset Application.Protocol = "http://">
+			<cfset Application.Protocol = "https://">
 		<cfelse>
 			<cfset Application.Protocol = "http://">
 		</cfif>

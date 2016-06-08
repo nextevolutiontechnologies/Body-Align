@@ -32,6 +32,11 @@ body{margin:0;padding:0;height:100%; font-size: 15px;}
     text-align: center;
     transition: all 0.5s ease 0s;
 }
+
+h3 {
+    margin-top: 2px !important;
+    
+    }
 .background-image-holder img{display:block;}
 img.product-small{max-width:180px !important;opacity:1 !important;transform:scale3d(1, 1, 1) !important;transition:all 0.3s ease 0s !important;}
 .image-slider .slides li > img{width:100%;}
@@ -224,3 +229,91 @@ h4{font-size:24px;line-height:32px;}
 .text-tabs .tab-title::after{background:#055a9b none repeat scroll 0 0;bottom:-17px;content:"";height:1px;left:0;opacity:0;position:absolute;transition:all 0.3s ease 0s;width:100%;}
 .text-tabs .active .tab-title{color:#055a9b;opacity:1;}
 .text-tabs .tab-title{-moz-user-select:none;opacity:0.5;padding:0 24px;position:relative;transition:all 0.3s ease 0s;}
+/* .modal-fullscreen */
+
+.modal-fullscreen {
+  background: transparent;
+}
+.modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #000;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: .97;
+  filter: alpha(opacity=97);
+}
+
+/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
+
+.modal-fullscreen .modal-dialog {
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-fullscreen .modal-dialog {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-fullscreen .modal-dialog {
+     width: 100%;
+       height: auto;
+  }
+}
+
+.close {
+    color: #fff !important;
+    float: right;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    opacity: 0.2;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.modal-footer {
+    border-top: #000;
+    padding: 15px;
+    text-align: right;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+ 
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}

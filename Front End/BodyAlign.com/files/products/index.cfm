@@ -16,11 +16,22 @@
 
 <!-- Page Heading -->
 <div class="row">
-<div class="col-lg-12">
+<div class="col-md-6">
 <h1 class="page-header">Our Products <cfif isDefined("url.p") and url.p gt ''><cfoutput> - #UCASE(pGetProductList_Result.strCategory)#</cfoutput></cfif>
 </h1>
 </div>
+<div class="col-md-6 text-right">
+<cfoutput>
+<ol class="breadcrumb breadcrumb-2">
+<li>
+<a href="/#url.u#/">Home</a>
+</li>
+<li class="active">Products </li>
+</ol>
+</cfoutput>
 </div>
+</div>
+
 </div><!--end of container-->
 </section>
  

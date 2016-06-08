@@ -1,10 +1,26 @@
-<script src="/global/js/bootstrap-3.3.5.min.js"></script>
-
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
 <script src="/global/js/plugins/datepicker/bootstrap-datepicker.js"></script>
 <script src="/global/js/bootstrapValidator-0.5.3.min.js"></script>
-<!--- Code to allow for custom stuff --->
-<cfparam name="customfoot" default="" >
-<cfoutput>#customfoot#</cfoutput>       
+      <script type="text/javascript">
+    $(document).ready(function() {
+  $('#modal-fullscreen').on('hidden.bs.modal', function() {
+    var $this = $(this).find('iframe'),
+      tempSrc = $this.attr('src');
+    $this.attr('src', "");
+    $this.attr('src', tempSrc);
+  });
+
+  $('#html5Video').on('hidden.bs.modal', function() {
+    var html5Video = document.getElementById("htmlVideo");
+    if (html5Video != null) {
+      html5Video.pause();
+      html5Video.currentTime = 0;
+    }
+  });
+});
+</script>
         <script type="text/javascript">
     $(document).ready(function() {
 
@@ -559,6 +575,29 @@ $('#peaks-audio2').on('ended', function() {
   $('#idj2-pause-button').addClass('hide');
   $('#idj2-play-button').removeClass('hide');
   $('#peaks-audio2').load();
+});
+
+</script>
+
+<script>
+// .modal-backdrop classes
+
+$(".modal-transparent").on('show.bs.modal', function () {
+  setTimeout( function() {
+    $(".modal-backdrop").addClass("modal-backdrop-transparent");
+  }, 0);
+});
+$(".modal-transparent").on('hidden.bs.modal', function () {
+  $(".modal-backdrop").addClass("modal-backdrop-transparent");
+});
+
+$(".modal-fullscreen").on('show.bs.modal', function () {
+  setTimeout( function() {
+    $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
+  }, 0);
+});
+$(".modal-fullscreen").on('hidden.bs.modal', function () {
+  $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
 });
 
 </script>

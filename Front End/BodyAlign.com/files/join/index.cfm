@@ -37,16 +37,17 @@ As an Affiliate, you have the ability to build a monthly residual income with pr
 <strong>
 <h5>Our Affiliates enjoy these benefits:</h5></strong>
 <!--Inscribete GRATIS hoy y disfruta de los beneficios:-->
-<li>Body Align Store</li>
+<li>Body Align Ecommerce Store</li>
 <li>Virtual Back Office</li>
 <li>Access to Training and Marketing Materials</li>
-<li>Ability to Earn Residual Income</li><br>
+<li>Access to Marketing Training Webinars</li>
+<li>Ability to Earn 10 to 15% Monthly Residual Income</li><br>
 <form method="post" action="/<cfoutput>#url.u#</cfoutput>/checkout/addtocart/">
 <input type="hidden" name="Productid" value="1070">
 <input type="hidden" name="unit" value="0">
 <input type="hidden" name="nQty" value="1">
 <input type="hidden" name="CartTypeID" value="2">
-<input type="submit" value="Join Now">
+<input type="submit" value="Join Free Now">
 </form>
 </div>
 </div>
@@ -80,9 +81,9 @@ As an Promoter, you have the ability to build a monthly residual income with pro
 <li>Ability to earn  Residual Income PLUS an enhanced BONUS package!</li>
 <li>VIP Member Support</li>
 <br>
-<!--Tienda Virtual PowerVida-->
+<!--Tienda Virtual Body Align-->
 <!-- Precios de Descuento y Promociones-->
-<!--El Paquete de Inicio con todos los productos PowerVida-->
+<!--El Paquete de Inicio con todos los productos Body Align-->
 <!--Acceso a material de Entrenamiento-->
 <!--Oportunidad de Desarrollar un Equipo de Trabajo-->
 <!--Oportunidad de Construir un Ingreso Residual, MAS un paquete de Bonos Rápidos-->
