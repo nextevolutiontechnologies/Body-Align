@@ -45,8 +45,6 @@
    <a class="btn btn-color" href="/files/science/h3holographic/study5" title="Click Here to see Study 5">STUDY 5</a>
 <br />
    <a class="btn btn-color" href="/files/science/h3holographic/study6" title="Click Here to see Study 6">STUDY 6</a>
-<br />
-   <a class="btn btn-color" href="/files/science/h3holographic/study7" title="Click Here to see Study 7">STUDY 7</a>
 </div>
 </div>
 </section>

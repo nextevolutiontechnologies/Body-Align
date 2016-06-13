@@ -18,6 +18,7 @@
 <p align="justify">At Body Align, we believe a properly balanced body is the foundation of good health. We&rsquo;ve developed a system that provides, what we like to call, the next evolution in wellness. A system &ndash; strongly supported by science and research &ndash; that utilizes technology to nourish and support your body from both the inside out and outside in.</p>
 <p align="justify">Headquartered in Virginia Beach, VA, Body Align corporate structure consists of individuals with more than 75 years combined experience in health, wellness, nutrition, sports nutrition and wellness technologies. We have developed partnerships with medical professionals, nutritionists, chiropractors, certified personal trainers and scientists to develop a well&ndash;researched, scientifically based system. At Body Align, we are committed to helping keep your body balanced, nourished and functioning optimally.</p>
 <p>Welcome to Body Align where we are commited to making a healthier balanced YOU!</p>
+<a title="Meet Our Team" href="/files/about/team" class="btn btn-color">Meet our Team</a>
 </div>
 <div class="col-lg-5 col-md-6 col-sm-12 pull-left">
 <br />

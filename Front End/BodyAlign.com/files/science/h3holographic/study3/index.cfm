@@ -17,7 +17,7 @@
 <li>
 <a href="/#url.u#/science/h3holographic">H3 Holographic</a>
 </li>
-<li class="active">Article 1</li>
+<li class="active">Article 7</li>
 </ol>
 </cfoutput>
 </div>
@@ -25,12 +25,12 @@
 
 <div class=row>
 	<div class=col-md-7>
-<img class=img-responsive src="/files/img/science/science-img1.jpg" alt="" width=536 height=250>
+<img class=img-responsive src="/files/img/science/science-img6.jpg" alt="" width=536 height=250>
 	</div>
 	<div class=col-md-5>
-<h3>Effects of a "Holographic" disk on Delayed Onset Muscle Soreness and Performance: a Pilot Study - University of Alabama</h3>
-<p align=justify>A research study to determine if "encoded holographic data discs" at acupressure sites would alleviate the pain and discomfort commonly associated with delayed onset muscle soreness, as well as enhance weight lifting performance. </p>
- <a class="btn btn-primary" href="/files/pdf/en/bodyalign-NACSM-2011-University-of-Alabama.pdf" target="_blank" title="Click Here to View Now">View Full Article </a>
+<h3>Balance And Motion Testing On Wrist Bands Powered By 8ight Holographic Technology - Dr. Kendal Stewart, MD</h3>
+<p align=justify>A single-subject preliminary evaluation to test Wristband technology showing such astounding results that a full double-blind placebo study is proposed.</p>
+<a class="btn btn-primary" href="/files/pdf/en/bodyalign-8ight2Stewart.pdf" target="_blank" title="Click Here to View Now">View Full Article </a>
 	
 	</div>
 </div>
