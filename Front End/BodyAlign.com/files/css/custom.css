@@ -305,7 +305,7 @@ h4{font-size:24px;line-height:32px;}
 	height:100%;
 }
  
-.modal-dialog {
+.modal-dialog2 {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -317,3 +317,149 @@ h4{font-size:24px;line-height:32px;}
   min-height: 100%;
   border-radius: 0;
 }
+
+.producttag {
+    color: #f28731;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.productcopy li {
+    color: #0095da;
+    font: bold 14px/22px arial,verdana,sans-serif;
+    list-style-position: inside;
+    text-align: left;
+}
+
+.faq {
+  background-color: #f2f2f2;
+    border-radius: 15px;
+    font: 16px Arial,Verdana,sans-serif;
+    margin: 5px auto 20px;
+    padding: 30px 40px;
+    text-align: left;
+}
+
+/* .modal-transparent */
+
+.modal-transparent {
+  background: rgba(black, 0.5);
+}
+.modal-transparent .modal-content {
+  background: #ffffff;
+}
+.modal-backdrop.modal-backdrop-transparent {
+  background: #ffffff;
+}
+.modal-backdrop.modal-backdrop-transparent.in {
+  opacity: .9;
+  filter: alpha(opacity=90);
+}
+
+.close2 {
+    color: #000 !important;
+    float: right;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+     
+    text-shadow: 0 1px 0 #fff;
+}
+
+.modal-dialog {
+    margin: 30px auto;
+    width: 880px;
+}
+
+#guarantee {
+    background: rgba(0, 0, 0, 0) url("/files/img/products/3odaysmbg.gif") no-repeat scroll 0 0;
+    float: left;
+    height: 192px;
+    width: 650px;
+}
+
+#guarantee p {
+    color: #fff;
+    font: 12px/16px arial,verdana,sans-serif;
+    padding: 108px 25px 20px;
+    text-align: left;
+}
+
+.testimonial {
+    background: rgba(0, 0, 0, 0) url("/files/img/products/bkg-testimonial.png") no-repeat scroll 0 0;
+    float: right;
+    height: 192px;
+    overflow: hidden;
+    text-align: left;
+
+}
+
+.testimonial {
+    text-align: left;
+}
+
+.testimonial p {
+    color: #fff;
+    font: italic 12px/16px arial,verdana,sans-serif;
+    padding: 20px 18px 7px 35px;
+}
+
+#pkgoffer136 {
+    background: rgba(0, 0, 0, 0) url("/files/img/products/bkg-pkgoffertable136.png") no-repeat scroll 0 0;
+    height: 570px;
+    margin: 15px auto;
+    width: 940px;
+}
+
+#pkgoffer .bottle1, #pkgoffer136 .bottle1 {
+    color: #338fc4;
+    font: bold 34px Arial,sans-serif;
+}
+
+#pkgoffer .price1, #pkgoffer136 .price1 {
+    color: #343434;
+    font: bold 32px Arial,sans-serif;
+}
+
+.greenmed {
+    color: #34a00d !important;
+}
+
+#pkgoffer .popularsave, #pkgoffer136 .popularsave {
+    color: #eb2a2e;
+    font: bold 36px Arial,sans-serif;
+}
+.popularsave {
+    color: #eb2a2e;
+    font: bold 36px Arial,sans-serif;
+}
+
+.ingredbtnmid {
+ 
+    z-index: 999;
+    margin: 0;
+}
+
+.ViewIngredButtonLink:hover{background-position:0 0;}
+
+
+.ingredbtnmid .ViewIngredButtonLink {
+    display: block;
+    width: 212px;
+    height: 32px;
+    background: url(/files/img/products/btn-ingredients.gif) bottom;
+    text-indent: -99999px;
+    cursor: pointer;
+    line-height: 32px;
+}
+.ingredbtnlow .ViewIngredButtonLink:hover{background-position:0 0;}
+
+#modal-transparent .modal-content
+{
+  
+  overflow-y:auto;
+}
+
+.ViewIngredButtonLink{display:block;width:212px;height:32px;background:url(/files/img/products/btn-ingredients.gif) bottom;text-indent:-99999px;cursor:pointer;line-height:32px;}

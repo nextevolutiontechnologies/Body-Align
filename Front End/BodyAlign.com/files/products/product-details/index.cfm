@@ -14,7 +14,7 @@
 <div class="container">
 <!-- Page Heading -->
 <div class="row">
-<div class="col-lg-6">
+<div class="col-md-6">
 <h1 class="page-header">#strProduct#</h1>
 </div>
 <div class="col-md-6 text-right">
@@ -52,9 +52,11 @@
 </div>
 </div>
 <div class="col-md-5 col-md-offset-1 col-sm-6">
-<hr class="mb48 mb-xs-24">
+<div class="mb32 mb-xs-24">
 <span class="number price">$#amtRetail#</span>
-<br /><br />
+</div>
+<hr class="mb48 mb-xs-24">
+<img src="http://www.bodyalign.com/files/img/products/moneyback-guarantee.png" align="right" width="130">
 <form class="add-to-cart" action="/#url.u#/checkout/addtocart/" method="post" id="addcart" >
 <input type="hidden" name="Productid" value="#intProductID#" placeholder="ProductID" />
 <input type="hidden" name="CustID" value="0" />
@@ -85,4 +87,4 @@ No File Exist yet
 
 </cfoutput>
 <CFINCLUDE template="/public/footer.cfm">
-<CFINCLUDE template="/public/global_footer.cfm">
+<CFINCLUDE template="/public/global_footer_product.cfm">

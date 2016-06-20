@@ -1,88 +1,80 @@
 <CFINCLUDE template="/public/global_header.cfm">
 <CFINCLUDE template="/public/header.cfm">
-<CFPARAM name="thisProduct" default="#url.f#" >
-<cfstoredproc procedure="pGetProductInfo_NEW" debug="yes" datasource="#application.datasource#">
-<cfprocresult name="pGetProductInfo_Result">
-<cfprocparam cfsqltype="CF_SQL_INTEGER" variable="intProductID" type="in" value = "0">
-<cfprocparam cfsqltype="CF_SQL_INTEGER" variable="intMemberID" type="in" value="#Session.MemberID#">
-<cfprocparam cfsqltype="CF_SQL_VARCHAR" variable="strProduct" type="in" Value="#thisProduct#">
-<cfprocparam cfsqltype="CF_SQL_INTEGER" variable="intLangID" type="in" value="#session.lang#">
-<cfprocparam cfsqltype="CF_SQL_INTEGER" variable="intBrandID" type="in" Value="#application.BrandID#">
+<cfstoredproc procedure="pGetProductList_Public" debug="yes" datasource="#application.datasource#">		
+	<cfprocresult name="pGetProductList_Result">
+	<cfprocparam cfsqltype="CF_SQL_INTEGER" variable="intBrandID" type="in" Value="#application.BrandID#">
+	<cfprocparam cfsqltype="CF_SQL_INTEGER" variable="intLangID" type="in" value="#session.lang#">
 </cfstoredproc>
-<cfoutput query="pGetProductInfo_Result">
+<cfif isDefined("url.p") and url.p GT ''>
+<cfquery name="pGetProductList_Result" dbtype="query">
+	SELECT * FROM pGetProductList_Result WHERE LOWER(strCategory) = <cfqueryparam cfsqltype="string" value="#lcase(url.p)#" >
+</cfquery>
+</cfif>
+<div id="wrap">
 <section class="content-1-5 content-block">
 <div class="container">
+
 <!-- Page Heading -->
 <div class="row">
-<div class="col-lg-6">
-<h1 class="page-header">#strProduct#</h1>
+<div class="col-md-6">
+<h1 class="page-header">Our Products <cfif isDefined("url.p") and url.p gt ''><cfoutput> - #UCASE(pGetProductList_Result.strCategory)#</cfoutput></cfif>
+</h1>
 </div>
 <div class="col-md-6 text-right">
 <cfoutput>
 <ol class="breadcrumb breadcrumb-2">
 <li>
-<a href="/#url.u#/products">Products</a>
+<a href="/#url.u#/">Home</a>
 </li>
-<li class="active">#strProduct#</li>
+<li class="active">Products </li>
 </ol>
 </cfoutput>
 </div>
 </div>
-</div><!--end container-->
-</section>
-<section class="product-single-section">
-<div class="container">
-<div class="product-single">
-<div class="row mb24 mb-xs-48">
-<div class="col-md-5 col-sm-6">
-<div class="image-slider slider-thumb-controls controls-inside">
-<ul class="slides">
-<li style="list-style-type:none;">
-<img alt="Image" src="/files/img/products/#replacenocase(strURLFriendly,'*','')#.png"/>
-</li>
-</ul>
-</div><!--end of image slider-->
-</div>
-<div class="col-md-6 col-md-offset-1 col-sm-6">
-<div class="description">
-<!---<h4 class="uppercase">#strProduct#</h4>--->
-<article>
-#strProductText1#
-</article>
-</div>
-</div>
-<div class="col-md-5 col-md-offset-1 col-sm-6">
-<hr class="mb48 mb-xs-24">
-<span class="number price">$#amtRetail#</span>
-<br /><br />
-<form class="add-to-cart" action="/#url.u#/checkout/addtocart/" method="post" id="addcart" >
-<input type="hidden" name="Productid" value="#intProductID#" placeholder="ProductID" />
-<input type="hidden" name="CustID" value="0" />
-<input type="hidden" name="unit" value="#amtRetail#" />
-<input type="hidden" name="intCartTypeID" value="1" />
-<input type="number" name="nqty" placeholder="QTY" min="1"/>
-<input type="submit" value="Add To Cart" />
-</form>
-</div>
-</div><!--end of row-->
-<div class="row">
-<div class="col-sm-12">
-<div class="tabbed-content text-tabs product-tabs">
-<cftry>
-<cfinclude template="#strURLFriendly#_#session.langcode#.html" >
-<cfcatch >
-No File Exist yet
-</cfcatch>
-</cftry>
-</div>
-</div>
-</div>
-</div><!--end of product single-->
+
 </div><!--end of container-->
 </section>
-
-
+ 
+<div class="container">
+<div id="header">
+<div id="body">
+<div class="row">
+<div class="col-md-2 col-sm-4">
+<div class="select-option">
+<i class="fa fa-angle-down"></i>
+<!---<select>
+<option selected value="Default">Sort By</option>
+<option value="Small">Highest Price</option>
+<option value="Medium">Lowest Price</option>
+<option value="Larger">Newest Items</option>
+</select>--->
+</div><!--end select-->
+</div>
+</div><!--end of row-->
+ 
+<div class="row masonry">
+<cfoutput query="pGetProductList_Result">
+<div class="col-md-3 col-sm-4 masonry-item col-xs-12">
+<div class="image-tile outer-title text-center">
+<a href="/#url.u#/products-dev/#strURLFriendly#.ba">
+<img alt="#strURLFriendly#" class="product-small" src="/files/img/products/#replacenocase(strURLFriendly,'*','')#.png" />
+</a>
+<div class="title">
+<h5 class="mb0">#strProduct#</h5>
+<!---<span class="display-block mb16">$#amtRetail#</span>--->
+<p>
+<a class="btn btn-color" href="/#url.u#/products-dev/#strURLFriendly#.ba">LEARN MORE</a>
+</p>
+</div>
+</div>
+</div><!--end three col-->
 
 </cfoutput>
+</div>
+</div> 
+</div><!--end of row-->
+</div><!--end of container-->
+</div><!--end of wrap -->
+<br /><br />
 <CFINCLUDE template="/public/footer.cfm">
 <CFINCLUDE template="/public/global_footer.cfm">
