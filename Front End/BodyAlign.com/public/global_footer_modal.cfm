@@ -4,6 +4,7 @@
 <script src="/global/js/plugins/datepicker/bootstrap-datepicker.js"></script>
 <script src="/global/js/bootstrapValidator-0.5.3.min.js"></script>
       <script type="text/javascript">
+      
     $(document).ready(function() {
   $('#modal-fullscreen').on('hidden.bs.modal', function() {
     var $this = $(this).find('iframe'),
@@ -601,6 +602,11 @@ $(".modal-fullscreen").on('hidden.bs.modal', function () {
 });
 
 </script>
+<script type="text/javascript">
+jQuery(function(){var $slider=jQuery('.slider'),transitionTime=15000;$slider.width(280).find('.slide').not('.current').fadeOut(0);setInterval(function(){$slider.find('.current').removeClass('current').fadeOut(500,function(){var $this=jQuery(this);if($this.is(':last-child')){var $nextItem=$slider.find('.slide:first-child');}else{var $nextItem=$this.next();}
+$nextItem.addClass('current').fadeIn(500);});},transitionTime);});
+</script> 
+ 
  
  </body>
 </html>

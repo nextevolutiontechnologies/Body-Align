@@ -1,5 +1,5 @@
 <script src="/global/js/bootstrap-3.3.5.min.js"></script>
-
+ 
 <script src="/global/js/plugins/datepicker/bootstrap-datepicker.js"></script>
 <script src="/global/js/bootstrapValidator-0.5.3.min.js"></script>
 <!--- Code to allow for custom stuff --->

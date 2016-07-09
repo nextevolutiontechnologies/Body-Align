@@ -19,10 +19,10 @@
 </div>
 </div>
 <div class=row>
-<div class=col-md-4>
+<div class=col-md-3>
 <img class=img-responsive src="/files/img/about/steve.png" alt="" width=536 height=628>
 </div>
-<div class=col-md-8>
+<div class=col-md-9>
 <h4>Steve Lepkowski CEO & Co Founder
 </h4>
 <p align=justify>Steve grew up in Upstate new York and attended Clarkson College as a mechanical engineer.  In 2005 he ended his career at Texas Instruments after 20 years of developing intellectual property and patents around the cell phone industry.  <br /><br />
@@ -36,10 +36,10 @@ Steve is the Founder and CEO of Body Align since its inception in July of 2012.�
 <hr>
 <br/>
 <div class=row>
-<div class=col-md-4>
+<div class=col-md-3>
 <img class=img-responsive src="/files/img/about/michael.png" alt="" width=536 height=628>
 </div>
-<div class=col-md-8>
+<div class=col-md-9>
 <h4>Michael Carnevale, President & Co Founder</h4>
 <p align=justify>
 Michael is a powerful business leader whose entrepreneurial instincts and clarity of vision have driven multiple companies through rapid and continuous growth. 
@@ -54,10 +54,10 @@ In the span of his career, Michael has held senior level executive positions at 
 <hr>
 <br/>
 <div class=row>
-<div class=col-md-4>
+<div class=col-md-3>
 <img class=img-responsive src="/files/img/about/jimmie.png" alt="" width=536 height=628>
 </div>
-<div class=col-md-8>
+<div class=col-md-9>
 <h4>
 Jimmie Schwinn, COO & Co Founder
 </h4>
@@ -74,10 +74,10 @@ Jimmie has over 30 years experience in business management and heads up Body Ali
 <hr>
 <br/>
 <div class=row>
-<div class=col-md-4>
+<div class=col-md-3>
 <img class=img-responsive src="/files/img/about/greg.jpg" alt="" width=536 height=628>
 </div>
-<div class=col-md-8>
+<div class=col-md-9>
 <h4>
 Greg Harrell, Vice President of Sports
 </h4>

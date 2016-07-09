@@ -70,7 +70,7 @@ input[type="submit"], button[type="submit"]{background:#055a9b none repeat scrol
 .tab-content{border:medium none;padding-left:0;padding-right:0;}
 .tab-pane{border-bottom:1px solid #ecf0f1;padding:10px 0;}
 .nav-tabs{margin:0 auto;text-align:left;}
-.nav-tabs > li > a{-moz-border-bottom-colors:none !important;-moz-border-left-colors:none !important;-moz-border-right-colors:none !important;-moz-border-top-colors:none !important;border-color:-moz-use-text-color -moz-use-text-color transparent !important;border-image:none !important;border-radius:0;border-style:none none solid !important;border-width:medium medium 4px !important;color:#737c85;font-size:14px;font-style:normal;font-weight:700;padding:16px 25px 12px;text-transform:uppercase;}
+.nav-tabs > li > a{-moz-border-bottom-colors:none !important;-moz-border-left-colors:none !important;-moz-border-right-colors:none !important;-moz-border-top-colors:none !important;border-color:-moz-use-text-color -moz-use-text-color transparent !important;border-image:none !important;border-radius:0;border-style:none none solid !important;border-width:medium medium 4px !important;color:#737c85;font-size:16px;font-style:normal;font-weight:700;padding:16px 25px 12px;text-transform:uppercase;}
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{background-color:transparent;border-bottom:4px solid #c3c4c6 !important;}
 .nav-tabs > li{display:inline-block;float:none;z-index:2;}
 .navbar-nav > li > a:hover{background-color:#f5f5f5 !important;}
@@ -382,7 +382,7 @@ h4{font-size:24px;line-height:32px;}
 
 #guarantee p {
     color: #fff;
-    font: 12px/16px arial,verdana,sans-serif;
+    font: 11px/13px arial,verdana,sans-serif;
     padding: 108px 25px 20px;
     text-align: left;
 }

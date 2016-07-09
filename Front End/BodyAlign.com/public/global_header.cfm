@@ -30,7 +30,7 @@ SELECT * FROM StateProvince WHERE strCountryCode = '#session.CountryCode#' ORDER
 <meta property="og:site_name" content="Body Align Website" />
 <meta name="description" content="">
 <meta name="author" content=" Body Align">
-<title>Body Align - Well Balanced</title>
+<title>Body Align - Well Balanced 4 Life</title>
 <link href="/global/css/bootstrap-3.3.5.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="/global/js/plugins/datepicker/datepicker.css" rel="stylesheet" type="text/css" />
 <link href="/global/font-awesome-4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css" />

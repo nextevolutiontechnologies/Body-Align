@@ -67,7 +67,9 @@
 </div>
 <div class="modal-body" align="center">
 <div class="video-container" id="yt-player">
-<iframe src="http://net.evsuite.com/Qm9keSBBbGlnbiBPdmVydmlldy5tcDQ=/?mode=iframe" width="1300" height="740" frameborder="0" allowfullscreen></iframe>  </div>
+<iframe src="http://net.evsuite.com/QkFCTy02LTIzLTE2Lm1wNA==/?mode=iframe" width="980" height="560" frameborder="0" allowfullscreen></iframe>
+<!---<iframe src="http://net.evsuite.com/Qm9keSBBbGlnbiBPdmVydmlldy5tcDQ=/?mode=iframe" width="1300" height="740" frameborder="0" allowfullscreen></iframe> --->
+</div>
 </div>
 </div>
 </div>

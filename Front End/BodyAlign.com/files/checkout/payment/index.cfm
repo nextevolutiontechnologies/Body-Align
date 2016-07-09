@@ -7,10 +7,10 @@
 <div id="body">
 <div class="row">
 <div class="col-md-6">
-<h1 class="page-header">CHECKOUT INFORMATION
+<h1 class="page-header">FREE AFFILIATE ENROLLMENT
 </h1>
 </div>
-<div class="col-md-6 text-right">
+<!---<div class="col-md-6 text-right">
 <cfoutput>
 <ol class="breadcrumb breadcrumb-2">
 <li>
@@ -19,16 +19,12 @@
 <li> <a href="/#url.u#/checkout">Checkout</a></li>
 <li class="active">Payment</li>
 </ol>
-
 </cfoutput>
-</div>
+</div>--->
 </div><!--end of row-->
-
 </div>
 </div><!--end of container-->
 </div><!--end of header-->
- 
- 
 <div class="container">
 <p><strong>Your Body Aligner:</strong> <cfif isdefined("pGetMemberWebsite_results.strfullname")><cfoutput>#pGetMemberWebsite_results.strfullname#</cfoutput></cfif></p>
 <form id="payment" class="customer-details mb80 mb-xs-40" action="<cfoutput>#application.protocol##HTTP_HOST#</cfoutput>/<cfoutput>#url.u#</cfoutput>/checkout/payment/process/" method="post">
@@ -190,18 +186,15 @@ SHIPPING
 <span>SSN##:</span>
 <input type="text"  placeholder="SSN##" onbluerb="this.replace(/ /g, '');" id="strSsn" name="strSsn" value="" maxlength="20" />
 </div>
-
-
-
-<div class="<!---input-with-label---> col-sm-4 form-group text-left">
-<span class="pick-date-payment">DATE OF BIRTH:</span>
-<div id="dp-ex-4" class="input-group date" data-date="12-02-1998" data-date-format="mm/dd/yyyy" data-date-autoclose="true" data-date-start-view="2">
-<input class="form-control" type="text" placeholder="mm/dd/yyyy" id="dtDateOfBirth" name="dtDateOfBirth">
-<span class="input-group-addon" style="border: none;"><i class="fa fa-calendar"></i></span>
-</div>
+<div class="input-with-label col-sm-4 form-group text-left">
+<span>EIN##:</span>
+<input type="text"  placeholder="EIN##" onbluerb="this.replace(/ /g, '');" id="STRFEDERALID" name="STRFEDERALID" value="" maxlength="20" />
 </div>
 
-</div><!-- /.rwo -->
+
+
+
+</div><!-- /.row -->
 <div class="row">
 <div class="input-with-label col-sm-4 form-group text-left">
 <span>Username:</span>
@@ -211,10 +204,18 @@ SHIPPING
 <span>Contact Phone:</span>
 <input type="text" placeholder="Contact Phone" id="strPhone" name="strPhone" value="" maxlength="100" />
 </div>
+<div class="col-sm-4 form-group text-left">
+<span class="pick-date-payment">DATE OF BIRTH:</span>
+<div id="dp-ex-4" class="input-group date" data-date="12-02-1998" data-date-format="mm/dd/yyyy" data-date-autoclose="true" data-date-start-view="2">
+<input class="form-control" type="text" placeholder="mm/dd/yyyy" id="dtDateOfBirth" name="dtDateOfBirth">
+<span class="input-group-addon" style="border: none;"><i class="fa fa-calendar"></i></span>
+</div>
+</div>
 </div><!-- /.rwo -->
 </cfif>
 <hr class="visible-xs">
 </div>
+
 </div><!--end of row-->
 <cfif pGetCartItems_Result.intCarttypeID neq 11 and  pGetCartItems_Result.intCarttypeID neq 2>
 <div class="row">
@@ -265,7 +266,7 @@ Have a different Payment Address? <i class="ti-angle-down"></i>
 </cfif>
 <div class="row">
 <div class="col-md-8 col-md-offset-2">
-<div class="text-center">
+<!---<div class="text-center">
 <h4 class="uppercase">Order Summary</h4>
 <hr>
 </div>
@@ -290,11 +291,11 @@ Have a different Payment Address? <i class="ti-angle-down"></i>
 </td>
 </tr>
 </tbody>
-</table>
+</table>--->
 <div class="halves text-center">
 
-<input type="submit" class="pull-right" value="Submit Order" /><br />
-<a class="btn btn-lg" href="/<cfoutput>#url.u#</cfoutput>/checkout/">Back To Cart</a> 
+<input type="submit" class="pull-right" value="Become an Affiliate" /><br />
+<!---<a class="btn btn-lg" href="/<cfoutput>#url.u#</cfoutput>/checkout/">Back To Cart</a> --->
 </div>
 </div>
 </div><!--end of row-->

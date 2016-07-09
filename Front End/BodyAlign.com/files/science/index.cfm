@@ -8,7 +8,6 @@
 </h1>
 </div>
 </div>
-
 <div class=row>
 <div class=col-md-5>
 <img class=img-responsive src="/files/img/science/advisory-board.jpg" alt="" width=536 height=420>
@@ -30,7 +29,7 @@
 <h4>H3 Holographic Technology</h4>
 <p align=justify>Today, biologists and physicists are beginning to understand exactly how the DNA in cells communicates information to other cells.  A lot of the research has been done by Konstantin Meyl. It happens using very special electrical signals called longitudinal scalar waves.  This science is new, but it promises to explain many phenomena that have been very mysterious.</p>
 <p align=justify>It's pretty clear that at the cellular level communication not only happens through biochemistry, but also through some kind of electromagnetic information.</p>
-<p align=justify>Today, the principles of holography are being applied to a lot of different things.  The Body Align discs also known as Wareable Wellness Technology, uses holographic techniques to capture the information given off by the DNA of different substances. And just like light holograms, they are able to reproduce that signal when they are next to your body.  So that means you are getting the same information from a Body Align disc that you would by having some substance next to you. The precise relationship between holograms and longitudinal scalar waves is not well understood, but the technology has been demonstrated to work well.</p>
+<p align=justify>Today, the principles of holography are being applied to a lot of different things.  The Body Align discs also known as Wearable Wellness Technology, uses holographic techniques to capture the information given off by the DNA of different substances. And just like light holograms, they are able to reproduce that signal when they are next to your body.  So that means you are getting the same information from a Body Align disc that you would by having some substance next to you. The precise relationship between holograms and longitudinal scalar waves is not well understood, but the technology has been demonstrated to work well.</p>
 <a class="btn2 btn-primary2" href="/files/science/h3holographic"  title="Click Here to Learn More about the Science of H3 Holographic">Learn More </a>
 </div>
 </div>
