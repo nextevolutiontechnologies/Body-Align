@@ -10,7 +10,7 @@
 <h1 class="page-header">FREE AFFILIATE ENROLLMENT
 </h1>
 </div>
-<!---<div class="col-md-6 text-right">
+<div class="col-md-6 text-right">
 <cfoutput>
 <ol class="breadcrumb breadcrumb-2">
 <li>
@@ -19,12 +19,16 @@
 <li> <a href="/#url.u#/checkout">Checkout</a></li>
 <li class="active">Payment</li>
 </ol>
+
 </cfoutput>
-</div>--->
+</div>
 </div><!--end of row-->
+
 </div>
 </div><!--end of container-->
 </div><!--end of header-->
+ 
+ 
 <div class="container">
 <p><strong>Your Body Aligner:</strong> <cfif isdefined("pGetMemberWebsite_results.strfullname")><cfoutput>#pGetMemberWebsite_results.strfullname#</cfoutput></cfif></p>
 <form id="payment" class="customer-details mb80 mb-xs-40" action="<cfoutput>#application.protocol##HTTP_HOST#</cfoutput>/<cfoutput>#url.u#</cfoutput>/checkout/payment/process/" method="post">
@@ -294,7 +298,7 @@ Have a different Payment Address? <i class="ti-angle-down"></i>
 </table>--->
 <div class="halves text-center">
 
-<input type="submit" class="pull-right" value="Become an Affiliate" /><br />
+<input type="submit" class="pull-right" value="Become and Affiliate" /><br />
 <!---<a class="btn btn-lg" href="/<cfoutput>#url.u#</cfoutput>/checkout/">Back To Cart</a> --->
 </div>
 </div>

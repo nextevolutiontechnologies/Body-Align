@@ -67,7 +67,10 @@
 </div>
 <div class="modal-body" align="center">
 <div class="video-container">
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/JsQFAp8zNDc" frameborder="0" allowfullscreen></iframe>
+-->
 <iframe src="http://net.evsuite.com/Qm9keSBBbGlnbiBPdmVydmlldy5tcDQ=/?mode=iframe" width="1300" height="740" frameborder="0" allowfullscreen></iframe>
+
 </div>
 </div>
  
@@ -93,5 +96,5 @@
 </div>
 <!-- // End Content Block 1-5 v2 -->
 </div>
-<CFINCLUDE template="/public/global_footer_modal.cfm">
+<CFINCLUDE template="/public/global_footer.cfm">
 <CFINCLUDE template="/public/footer.cfm">

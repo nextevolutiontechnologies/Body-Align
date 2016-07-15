@@ -1,7 +1,7 @@
 <script src="/global/js/bootstrap-3.3.5.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ 
 <script src="/global/js/plugins/datepicker/bootstrap-datepicker.js"></script>
-<script src="/global/js/bootstrapValidator-0.5.3.min.js"></script>
+<script src="/global/js/bootstrapValidator-0.4.2.min.js"></script>
 <!--- Code to allow for custom stuff --->
 <cfparam name="customfoot" default="" >
 <cfoutput>#customfoot#</cfoutput>       
@@ -561,54 +561,6 @@ $('#peaks-audio2').on('ended', function() {
   $('#peaks-audio2').load();
 });
 
-</script>
-
-
-<script>
-// .modal-backdrop classes
-
-$(".modal-transparent").on('show.bs.modal', function () {
-  setTimeout( function() {
-    $(".modal-backdrop").addClass("modal-backdrop-transparent");
-  }, 0);
-});
-$(".modal-transparent").on('hidden.bs.modal', function () {
-  $(".modal-backdrop").addClass("modal-backdrop-transparent");
-});
-
-$(".modal-fullscreen").on('show.bs.modal', function () {
-  setTimeout( function() {
-    $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
-  }, 0);
-});
-$(".modal-fullscreen").on('hidden.bs.modal', function () {
-  $(".modal-backdrop").addClass("modal-backdrop-fullscreen");
-});
-
-</script>
-<script type="text/javascript">
-jQuery(function(){var $slider=jQuery('.slider'),transitionTime=15000;$slider.width(280).find('.slide').not('.current').fadeOut(0);setInterval(function(){$slider.find('.current').removeClass('current').fadeOut(500,function(){var $this=jQuery(this);if($this.is(':last-child')){var $nextItem=$slider.find('.slide:first-child');}else{var $nextItem=$this.next();}
-$nextItem.addClass('current').fadeIn(500);});},transitionTime);});
-</script> 
-
-    <script type="text/javascript">
-      
-    $(document).ready(function() {
-  $('#modal-fullscreen').on('hidden.bs.modal', function() {
-    var $this = $(this).find('iframe'),
-      tempSrc = $this.attr('src');
-    $this.attr('src', "");
-    $this.attr('src', tempSrc);
-  });
-
-  $('#html5Video').on('hidden.bs.modal', function() {
-    var html5Video = document.getElementById("htmlVideo");
-    if (html5Video != null) {
-      html5Video.pause();
-      html5Video.currentTime = 0;
-    }
-  });
-});
 </script>
  
  </body>

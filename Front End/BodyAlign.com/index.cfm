@@ -63,4 +63,4 @@
 </div>
 <div class="clearfix"></div>
 <CFINCLUDE template="/public/footer.cfm">
-<CFINCLUDE template="/public/global_footer.cfm">
+<CFINCLUDE template="/public/global_footer_home.cfm">

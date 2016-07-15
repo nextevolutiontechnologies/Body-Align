@@ -94,5 +94,5 @@
 </div>
 <!-- // End Content Block 1-5 v2 -->
 </div>
-<CFINCLUDE template="/public/global_footer_modal.cfm">
+<CFINCLUDE template="/public/global_footer.cfm">
 <CFINCLUDE template="/public/footer.cfm">
